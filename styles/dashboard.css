@@ -1,0 +1,140 @@
+
+.dashboard{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+}
+
+.dashtitle{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.createButtoncont{
+        background-color: dodgerblue;
+        display: flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: self-start;
+        gap: 10px;
+        color: white;
+        margin-right: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.dashcards{
+    margin: 10px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.box{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    width: 200px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    transition: all 0.1s ease-in-out;
+}
+.box:hover{
+    cursor: pointer;
+    scale: 1.03;
+    transform: rotateX('10deg');
+    
+    background-color: rgba(255, 255, 255, 0.550);
+}
+
+.all{
+    background-color: rgba(169, 178, 253, 0.05);
+}
+.pending{
+    background-color: rgba(255, 123, 0, 0.05);
+}
+.completed{
+    background-color: rgba(0, 128, 0, 0.05);
+}
+.inhouse{
+    background-color: rgba(255, 255, 0, 0.05);
+}
+
+.iconcont img{
+    width: auto;
+    height: 50px;
+    background-color: rgba(189, 210, 255, 0.13);
+    border-radius: 10px;
+    scale: 0.8;
+}
+.iconcont{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+}
+.iconcont h4{
+    font-weight: 800;
+}
+.count h5{
+    font-size: 2.2em;
+}
+
+
+
+
+.searchdatas{
+    width: auto;
+    display: grid;
+    
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.datechoosecont{
+   
+    display: flex;
+    flex-direction: column;
+}
+.firstsec{
+
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.secondsec{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.secondsec input{
+    border-radius: 0px;
+    
+
+}
+.datecont{
+    align-items: start;
+    display: flex;
+    gap: 10px;
+   
+}
+
